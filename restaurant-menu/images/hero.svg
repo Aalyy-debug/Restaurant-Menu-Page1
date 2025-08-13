@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#fff7f1"/><stop offset="1" stop-color="#fff3ec"/></linearGradient></defs>
+  <rect width="1200" height="400" fill="url(#g)"/>
+  <g font-family="Poppins, Arial, sans-serif">
+    <text x="60" y="140" font-size="44" fill="#c85a3a" font-weight="700">Harvest &amp; Hearth</text>
+    <text x="60" y="190" font-size="20" fill="#5b5b5b">Seasonal dishes • Fresh ingredients • Warm vibes</text>
+  </g>
+</svg>

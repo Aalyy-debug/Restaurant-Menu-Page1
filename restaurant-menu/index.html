@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Harvest & Hearth — Menu</title>
+  <meta name="description" content="Harvest & Hearth - A sample restaurant menu page. Responsive, accessible and easy to customize." />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1>Harvest &amp; Hearth</h1>
+        <p class="tag">Seasonal • Fresh • Local</p>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">☰</button>
+        <ul id="navList">
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner container">
+      <h2>Welcome to Harvest &amp; Hearth</h2>
+      <p>Simple, honest food — made with seasonal ingredients.</p>
+      <a class="btn primary" href="#menu">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="menu" class="menu-section" aria-labelledby="menu-heading">
+      <h2 id="menu-heading">Menu</h2>
+      <div class="filters" role="tablist" aria-label="Dietary filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="vegan">Vegan</button>
+        <button class="filter-btn" data-filter="gf">Gluten-free</button>
+        <button class="filter-btn" data-filter="veg">Vegetarian</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+        <!-- START dish card -->
+        <article class="dish-card vegan" tabindex="0">
+          <img src="images\starter1.jpg" alt="Crispy Cauliflower Bites" class="dish-img">
+          <div class="dish-body">
+            <h3 class="dish-title">Crispy Cauliflower Bites <span class="price">₹179</span></h3>
+            <p class="dish-desc">Lightly battered cauliflower served with chili-lime aioli and microgreens.</p>
+            <div class="tags">
+              <span class="tag">Vegan</span>
+              <span class="tag">Starter</span>
+            </div>
+          </div>
+        </article>
+        <!-- END dish card -->
+
+        <article class="dish-card gf" tabindex="0">
+          <img src="images\main1.jpg" alt="Grilled Salmon with Herb Butter" class="dish-img">
+          <div class="dish-body">
+            <h3 class="dish-title">Grilled Salmon with Herb Butter <span class="price">₹499</span></h3>
+            <p class="dish-desc">Pan-seared salmon fillet, lemon-herb butter, seasonal roasted vegetables.</p>
+            <div class="tags">
+              <span class="tag">Gluten-free</span>
+              <span class="tag">Main</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card veg" tabindex="0">
+          <img src="images\main2.jpeg" alt="Creamy Mushroom Risotto" class="dish-img">
+          <div class="dish-body">
+            <h3 class="dish-title">Creamy Mushroom Risotto <span class="price">₹349</span></h3>
+            <p class="dish-desc">Arborio rice cooked slowly with wild mushrooms, white wine and parmesan.</p>
+            <div class="tags">
+              <span class="tag">Vegetarian</span>
+              <span class="tag">Main</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card veg" tabindex="0">
+          <img src="images\dessert1.jpeg" alt="Salted Caramel Panna Cotta" class="dish-img">
+          <div class="dish-body">
+            <h3 class="dish-title">Salted Caramel Panna Cotta <span class="price">₹159</span></h3>
+            <p class="dish-desc">Silky vanilla panna cotta topped with house-made salted caramel and almond crumble.</p>
+            <div class="tags">
+              <span class="tag">Vegetarian</span>
+              <span class="tag">Dessert</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card gf vegan" tabindex="0">
+          <img src="images\starter2.jpeg" alt="Quinoa &amp; Herb Salad" class="dish-img">
+          <div class="dish-body">
+            <h3 class="dish-title">Quinoa &amp; Herb Salad <span class="price">₹219</span></h3>
+            <p class="dish-desc">Tri-color quinoa tossed with fresh herbs, pomegranate and citrus dressing.</p>
+            <div class="tags">
+              <span class="tag">Vegan</span>
+              <span class="tag">Gluten-free</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" tabindex="0">
+          <img src="images\main3.jpg" alt="Charred Chicken Thighs" class="dish-img">
+          <div class="dish-body">
+            <h3 class="dish-title">Charred Chicken Thighs <span class="price">₹429</span></h3>
+            <p class="dish-desc">Smoky-sweet glaze, served with mashed potato and charred seasonal veg.</p>
+            <div class="tags">
+              <span class="tag">Main</span>
+            </div>
+          </div>
+        </article>
+
+      </div> <!-- menu-grid -->
+    </section> <!-- menu-section -->
+
+    <section id="about" class="about-section">
+      <h2>About Us</h2>
+      <p>Harvest &amp; Hearth is a small kitchen focusing on seasonal produce, sustainable sourcing and flavour-forward dishes. Open for lunch and dinner.</p>
+      <ul class="about-list">
+        <li><strong>Hours:</strong> Tue–Sun, 12:00–15:30 &amp; 18:30–22:30</li>
+        <li><strong>Address:</strong> 14 Greenwood Lane, Bangalore</li>
+        <li><strong>Phone:</strong> +91 98765 43210</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact & Reservations</h2>
+      <p>For bookings, please call or message us on WhatsApp.</p>
+      <address class="contact-cards">
+        <div><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5a2 2 0 0 1 2-2h3l2 3h6a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-1l-3 3-3-3H5a2 2 0 0 1-2-2V5z" fill="currentColor"/></svg> +91 98765 43210</div>
+        <div><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 7 7 13 7 13s7-6 7-13c0-3.87-3.13-7-7-7z" fill="currentColor"/></svg> 14 Greenwood Lane, Bangalore</div>
+        <div><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z" fill="currentColor"/></svg> Open daily (see hours)</div>
+      </address>
+    </section>
+
+  </main>
+
+  <button class="order-btn" aria-label="Order now">Order Now</button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Harvest &amp; Hearth — Sample menu page. Built for learning.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
